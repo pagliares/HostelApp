@@ -18,6 +18,8 @@ There are two admin roles in the application. One role, played by a user called 
 **User**: fermina
 **Password**: foobar
 
+<p><a href="https://www.youtube.com/embed/hs_UaWwU2-s?si=hMcxgw6srBRB9xl4" target="_blank">YouTube demonstration video</a></p>
+
 
 
 
