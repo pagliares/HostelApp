@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}"lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Technologies used for development of the HostelApp</title>
+        <link rel="stylesheet" href="../static/css/site.css" th:href="@{/css/site.css}"/>
+    </head>
+
+    <body>
+        <div layout:fragment="content">
+            <div class="jumbotron main-content hostel-text">
+                <section>
+                    <article>
+                        <h2>Technologies</h2>
+                        <p> We created the HostelAPP leveraging several technologies. In its core, HostelApp is a multi-tier Spring Boot application. Its frontend is s Spring MVC application that implements the authentication/authorization features is responsible for the look and few of the application, by using w3c standards such as HTML, CSS and JavaScript. Somoe other frameworks is also used in the front-end, as for example, BootStrap
+                        </p>
+
+                        <p>In this page, we present details of the technologies used during development of HostelApp.
+                        </p>
+                    </article>
+                </section>
+
+                <section>
+                    <article>
+                        <h2><abbr title="Hypertext Markup Language">HTML</abbr></h2>
+                        <p>The following HTML elements/attributes are used in the HostelApp implementation:</p>
+                        <dl>
+                            <dt><code>&lt;link&gt;</code></dt>
+                            <dd>Used within the <code>head</code> element of several HTML pages in order to reference the CSS style sheets in the pages</dd>
+                            <dd>e.g. <code>index.html</code>, technologies.html</dd>
+                        </dl>
+                    </article>
+                </section>
+
+                <section>
+                    <article>
+                        <h2>BootStrap</h2>
+                        <p> We use BootStrap in several views, in particular, all these <code>classes</code>
+                            from the <code>layout.html</code> view are from BootStrap</p>
+                        <dl>
+                            <dt>
+                                <code>class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"</code>
+                            </dt>
+
+                            <dd>
+                                <code>&ltnav&gt element</code>
+                            </dd>
+
+                            <dt>
+                                <code>class="navbar-brand" </code>
+                            </dt>
+                            <dd>
+                                <code>&ltnav&gt element</code>
+                            </dd>
+
+                            <dt>
+                                <code>class="navbar-nav mr-auto"</code>
+                            </dt>
+                            <dd>
+                                <code>&ltdiv&gt element</code>
+                            </dd>
+
+                            <dt>
+                                <code>class="navbar-nav"</code>
+                            </dt>
+                            <dd>
+                                <code>&ltul&gt element</code>
+                            </dd>
+
+                            <dt>
+                                <code>class="nav-item"</code>
+                            </dt>
+                            <dd>
+                                <code>&ltli&gt element</code>
+                            </dd>
+                        </dl>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

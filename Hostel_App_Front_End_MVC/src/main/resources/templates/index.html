@@ -1,0 +1,83 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout}"lang="en-US">
+<head>
+    <meta charset="utf-8" name="hostel description" content="Everything you need to know about the hostel Sparkling Water">
+    <link rel="stylesheet" href="../static/css/site.css" th:href="@{/css/site.css}"/>
+
+    <title>Sparkling Water hostel's homepage</title>
+</head>
+<body>
+    <!-- Thymeleaf's hook to the layout
+         layout:fragment="content" in this page. <div layout:fragment="content"></div> in the layout page
+    -->
+    <div layout:fragment="content">
+         <div class="container">
+            <div class="main-content hostel-text">
+                <div class="row">
+                    <article class="col">
+                        <h2 class="mb-10">Sparkling Water hostel</h2>
+                        <p>The <em>hostel Sparkling Water</em> is a fictitious hostel located in Caxambu-<abbr
+                                title="Minas Gerais">MG</abbr>, Brazil. Caxambu is a small town (its population in 2020
+                            was estimated at 22,000), renowned for its spa which has twelve sources of sparking mineral
+                            water
+                            flowing
+                            24 hours a day and a cold-water geyser.</p>
+
+                        <p>Caxambu is the only place in the world with 12 mineral water springs,
+                            each with different chemical properties.</p>
+                    </article>
+
+                    <article class="col">
+                        <h2>How to get to the hostel?</h2>
+                        <dl>
+                            <dt>From Rio de Janeiro</dt>
+
+                            <dd>Via BR-116 (Presidente Dutra) west past Resende-
+                                <abbr title="Rio de Janeiro">RJ</abbr> to the village of
+                                Engenheiro Passos-<abbr title="Rio de Janeiro">RJ</abbr> and take BR-354 north.
+                            </dd>
+
+                            <dt>From Belo Horizonte or São Paulo</dt>
+
+                            <dd>Via BR-381 to Campanha-<abbr
+                                    title="Minas Gerais">MG</abbr>, then west on BR-267.</dd>
+                        </dl>
+                    </article>
+                </div>
+
+                <div class="row">
+                    <article class="col">
+                        <h2>Park</h2>
+                        <p> The Water Park is the main attraction in town.</p>
+
+                        <!-- uncomment the line below then finish the park page -->
+                        <!-- <p> The <a th:href="@{/park}">Water Park</a> is the main attraction in town.</p>-->
+
+                        <aside id="aside">
+                            <figure>
+                                <!-- static image without Spring Boot -->
+                                <img id="bath-house-img" src="images/Balneario.jpg"
+                                     alt="Photo of the Bathhouse"
+                                     width="259"
+                                     height="194"
+                                />
+                                <figcaption>Photo of the bathhouse located at the Water Park</figcaption>
+                            </figure>
+                        </aside>
+                    </article>
+                    <article class="col">
+                        <h2>Famous tourism quotes</h2>
+
+                        <p>"Never go on trips with anyone you do not love."     <cite>Ernest Hemingway</cite>
+                        </p>
+
+                        <p>"To travel is to discover that everyone is wrong about other countries."
+                            <cite> Aldous Huxley</cite>
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

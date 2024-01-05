@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}"
+      lang="en-US">
+
+<head>
+    <meta charset="utf-8" name="Contact information" content="Contact the developer of HostelApp">
+     <link rel="stylesheet" href="../static/css/site.css" th:href="@{/static/css/site.css}"/> <!-- do i need both ref> -->
+    <title>Sparkling Water hostel's homepage</title>
+</head>
+
+<body>
+    <div layout:fragment="content">
+         <div class="jumbotron main-content hostel-text">
+             <h2>Prof. Rodrigo Martins Pagliares</h2>
+             <img src="images/Pagliares-150x150.png">
+             <h3>Universidade Federal de Alfenas - UNIFAL-MG</h3>
+              <address>
+                  <p>
+                    Curso de Bacharelado em Ciência da Computação<br>
+                    Unidade Educacional Santa Clara <br>
+                    Sala: C-301-I
+                   </p>
+                  <ul>
+                      <li>Tel: +55(35) 3701-1949</li>
+                      <li>Email: <a href="mailto:pagliares@bcc.unifal-mg.edu.br">pagliares@bcc.unifal-mg.edu.br</a></li>
+                  </ul>
+              </address>
+         </div>
+    </div>
+</body>
+</html>
