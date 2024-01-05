@@ -3,3 +3,7 @@
 This repository contains the source-code and several other artifacts used in the course Application Lifecycle Manamegent - ALM - at the undeargraduate Computer Science course at UNIFAL - Alfenas - MG - Brazil.
 
 <p align="center"> <img src="Images/Landing_Page.png" width=903 height="542" alt="Example output" title="First JFrame"></p>
+
+<p><a href="Slides/How_to_Clone_and_Execute_the_HostelApp/How_to_Clone_and_Execute_the_HostelApp.pdf">How to download/clone HostelApp and run it within IntelliJ IDEA</a></p>
+
+<p><a href="Slides/HostelApp_Web/Authentication_Authorization_HostelApp.pdf">Demonstration of the HostelApp</a></p>
